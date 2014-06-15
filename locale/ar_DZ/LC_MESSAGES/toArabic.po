@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: try-git-ar\n"
-"POT-Creation-Date: 2014-06-14 13:32-0000\n"
-"PO-Revision-Date: 2014-06-14 15:52-0000\n"
+"POT-Creation-Date: 2014-06-15 14:09-0000\n"
+"PO-Revision-Date: 2014-06-15 14:20-0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabicgit-team <arabicgit@gmail.com>\n"
 "Language: ar_DZ\n"
@@ -15,9 +15,21 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
+#: ../../../docs/checkingForChanges.php:4
+msgid "Checking for Changes"
+msgstr "التحقق من التغييرات"
+
+#: ../../../docs/checkingForChanges.php:8
+msgid ""
+"Good job! Git is now tracking our octocat.txt file. \n"
+"            Let's run git status again to see where we stand:"
+msgstr ""
+"عما جيد, الان Git يقوم بتتبع ملفنا <b> octocat.txt  </b>. لننفد الامر <b> "
+"git status </b> مرة اخرى لنرى اين وصلنا."
+
 #: ../../../docs/addingChanges.php:4
 msgid "Adding Changes"
-msgstr "اضافة التغييرات"
+msgstr "إضافة التغييرات"
 
 #: ../../../docs/addingChanges.php:8
 msgid ""
@@ -38,24 +50,6 @@ msgid ""
 msgstr ""
 "لاخبار Git بتتبع التغيرات في <b> octocat.txt </b>, اولا يجب علينا اضافة "
 "الملف الى منطقة التحضير باستعمال الامر <b> git add </b>"
-
-#: ../../../docs/addingAndCommitting.php:4
-msgid "Adding & Committing"
-msgstr "الاضافة & الايداع"
-
-#: ../../../docs/addingAndCommitting.php:8
-msgid ""
-"I created a file called octocat.txt in the octobox \n"
-"            repository for you (as you can see in the browser below)."
-msgstr "انشأت ملف اسمه <b>octocat.txt </b> في المستودع octobox من اجلك. "
-
-#: ../../../docs/addingAndCommitting.php:12
-msgid ""
-"You should run the git status command again to see \n"
-"            how the repository status has changed:"
-msgstr ""
-"و الان يجب عليك تنفيد الامر <b> git status </b> مرة اخرى لترى بان حالة "
-"المستودع تغيرت."
 
 #: ../../../docs/addingAllChanges.php:4
 msgid "Adding All Changes"
@@ -83,38 +77,6 @@ msgstr ""
 "\". نستطيع اضافة جميع الملفات باستخدام wildcard بالامر <b> git add </b>. ولا "
 "تنسى علامات الاقتباس ' '"
 
-#: ../../../docs/checkingStatus.php:4
-msgid "Checking the Status"
-msgstr "التحقق من الحالة"
-
-#: ../../../docs/checkingStatus.php:8
-msgid ""
-"Good job! As Git just told us, our \"octobox\" \n"
-"            directory now has an empty repository in /.git/. The "
-"repository \n"
-"            is a hidden directory where Git operates."
-msgstr ""
-"عمل جيد, لقد اخبرنا Git بان مجلدنا \"octobox\" لديه مستودع فارغ في /git./ و "
-"محجوب حيث تسجل عمليات Git."
-
-#: ../../../docs/checkingStatus.php:13
-msgid ""
-"Next up, let's type the git status command to see \n"
-"            what the current state of our project is:"
-msgstr "وبعد, لنكتب الامر git status لمعرفة حالة المشروع."
-
-#: ../../../docs/checkingForChanges.php:4
-msgid "Checking for Changes"
-msgstr "التحقق من التغييرات"
-
-#: ../../../docs/checkingForChanges.php:8
-msgid ""
-"Good job! Git is now tracking our octocat.txt file. \n"
-"            Let's run git status again to see where we stand:"
-msgstr ""
-"عما جيد, الان Git يقوم بتتبع ملفنا <b> octocat.txt  </b>. لننفد الامر <b> "
-"git status </b> مرة اخرى لنرى اين وصلنا."
-
 #: ../../../docs/committing.php:4
 msgid "Committing"
 msgstr "الايداع"
@@ -141,6 +103,61 @@ msgid ""
 msgstr ""
 "لتخزين التغييرات بجب تنفيد الامر <b> commit </b> مع رسالة تصف التغييرات. "
 "لنقم بدلك الان بكتابة الامر التالي :"
+
+#: ../../../docs/checkingStatus.php:4
+msgid "Checking the Status"
+msgstr "التحقق من الحالة"
+
+#: ../../../docs/checkingStatus.php:8
+msgid ""
+"Good job! As Git just told us, our \"octobox\" \n"
+"            directory now has an empty repository in /.git/. The "
+"repository \n"
+"            is a hidden directory where Git operates."
+msgstr ""
+"عمل جيد, لقد اخبرنا Git بان مجلدنا \"octobox\" لديه مستودع فارغ في /git./ و "
+"محجوب حيث تسجل عمليات Git."
+
+#: ../../../docs/checkingStatus.php:13
+msgid ""
+"Next up, let's type the git status command to see \n"
+"            what the current state of our project is:"
+msgstr "وبعد, لنكتب الامر git status لمعرفة حالة المشروع."
+
+#: ../../../docs/committingAllChanges.php:4
+msgid "Committing All Changes"
+msgstr "ايداع جميع التغييرات"
+
+#: ../../../docs/committingAllChanges.php:8
+msgid ""
+"Okay, you've added all the text files to the staging \n"
+"            area. Feel free to run git status to see what you're about to \n"
+"            commit."
+msgstr ""
+"حسنا, لقد قمة بإضافة جميع الملفات النصية إلى منطقة التحضير. الآن يمكنك "
+"تنفيذ  الأمر <b> commit </b> التالي :"
+
+#: ../../../docs/committingAllChanges.php:13
+msgid "If it looks good, go ahead and run:"
+msgstr ""
+
+#: ../../../docs/addingAndCommitting.php:4
+msgid "Adding & Committing"
+msgstr "الاضافة & الايداع"
+
+#: ../../../docs/addingAndCommitting.php:8
+msgid ""
+"I created a file called octocat.txt in the octobox \n"
+"            repository for you (as you can see in the browser below)."
+msgstr "انشأت ملف اسمه <b>octocat.txt </b> في المستودع octobox من اجلك. "
+
+#: ../../../docs/addingAndCommitting.php:12
+msgid ""
+"You should run the git status command again to see \n"
+"            how the repository status has changed:"
+msgstr ""
+"و الان يجب عليك تنفيد الامر <b> git status </b> مرة اخرى لترى بان حالة "
+"المستودع تغيرت."
 
 #: ../../../docs/initializing.php:4
 msgid "Got 15 minutes and want to learn Git?"
