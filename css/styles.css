@@ -25,6 +25,7 @@ body {
 	background-color: #31E470;
 	box-shadow: 0 0 5px #666;
 	position: fixed;
+    display: inline-block;
 	top: 0px;
     z-index: 999;
 }
@@ -79,15 +80,16 @@ body {
 }
 
 #challengeName p {
-    font-size: 12px;
-    font-style:oblique;
+    font-size: 13px;
+    font-style: oblique;
+    font-weight: bold;
     width: 100%;
     text-align: center;
     color: #222;
     height: 50px;
     vertical-align: middle;
     margin: 0px;
-    text-shadow: 2px 2px 3px rgba(150, 150 ,150 , 1);   
+    text-shadow: 2px 2px 3px rgba(255, 255 ,255 , 1);   
     line-height: 50px;
 }
 

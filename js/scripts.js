@@ -5,8 +5,8 @@
  * @author Hachem Zerdia
  **/
 var challengeName = {
-    1 : "Initializing",
-    2 : "Checking the Status"
+    1 : "تهيئة",
+    2 : "التحقق من الحالة"
 }
 
 /**
