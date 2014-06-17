@@ -25,6 +25,7 @@ class Documentation {
 			'6' => BASE_PATH . '/docs/committing.php',
 			'7' => BASE_PATH . '/docs/addingAllChanges.php',
 			'8' => BASE_PATH . '/docs/committingAllChanges.php',
+			'9' => BASE_PATH . '/docs/history.php',
 		);
 	}
 
