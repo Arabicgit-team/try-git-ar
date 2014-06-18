@@ -55,7 +55,7 @@ class Git {
             '7' => '\'*.txt\'',
             '8' => '-m \'Add all the octocat txt files\'',
             '9' => false,
-            '10' => 'add origin https://github.com/try-git/try-git.git',
+            '10' => 'add origin https://github.com/try-git/try_git.git',
             '11' => '-u origin master',
             '12' => 'origin master',
             '13' => 'HEAD',

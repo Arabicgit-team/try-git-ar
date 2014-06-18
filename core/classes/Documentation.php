@@ -17,15 +17,16 @@ class Documentation {
 
     public function __construct() {
         $this->Docs = array(
-            '1' => BASE_PATH . '/docs/initializing.php',
-            '2' => BASE_PATH . '/docs/checkingStatus.php',
-            '3' => BASE_PATH . '/docs/addingAndCommitting.php',
-            '4' => BASE_PATH . '/docs/addingChanges.php',
-            '5' => BASE_PATH . '/docs/checkingForChanges.php',
-            '6' => BASE_PATH . '/docs/committing.php',
-            '7' => BASE_PATH . '/docs/addingAllChanges.php',
-            '8' => BASE_PATH . '/docs/committingAllChanges.php',
-            '9' => BASE_PATH . '/docs/history.php',
+            '1'  => BASE_PATH . '/docs/initializing.php',
+            '2'  => BASE_PATH . '/docs/checkingStatus.php',
+            '3'  => BASE_PATH . '/docs/addingAndCommitting.php',
+            '4'  => BASE_PATH . '/docs/addingChanges.php',
+            '5'  => BASE_PATH . '/docs/checkingForChanges.php',
+            '6'  => BASE_PATH . '/docs/committing.php',
+            '7'  => BASE_PATH . '/docs/addingAllChanges.php',
+            '8'  => BASE_PATH . '/docs/committingAllChanges.php',
+            '9'  => BASE_PATH . '/docs/history.php',
+            '10' => BASE_PATH . '/docs/remoteRepositories.php',
         );
     }
 

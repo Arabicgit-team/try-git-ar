@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: try-git-ar\n"
-"POT-Creation-Date: 2014-06-17 13:14-0000\n"
-"PO-Revision-Date: 2014-06-17 13:21-0000\n"
+"POT-Creation-Date: 2014-06-18 19:37-0000\n"
+"PO-Revision-Date: 2014-06-18 19:54-0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabicgit-team <arabicgit@gmail.com>\n"
 "Language: ar_DZ\n"
@@ -58,6 +58,34 @@ msgid ""
 msgstr ""
 "لحسن الحظ لدبنا <b> git log </b>. فكر فيه كانه صحيفة يتدكر جميع التغييرات "
 "التي نقوم بها و قمنا بايداعها من قبل. لنقم بتنفيد الامر الان و نرى :"
+
+#: ../../../docs/remoteRepositories.php:4
+msgid "Remote Repositories"
+msgstr "مستودعات عن بعد"
+
+#: ../../../docs/remoteRepositories.php:8
+msgid ""
+"Great job! We've gone ahead and created a new empty \n"
+"            GitHub repository for you to use with Try Git at \n"
+"            https://github.com/try-git/try_git.git. To push our local repo "
+"to \n"
+"            the GitHub server we'll need to add a remote repository."
+msgstr ""
+"عمل جيد, سنقوم بانشاء مستودع جديد في <b> GitHub </b> من اجلك لاستعماله في "
+"<b> Try Git </b> هذا هو الرابط : <br>  <b> https://github.com/try-git/"
+"try_git.git </b>. لدفع مستودعنا المحلي الى خادم <b> GitHub </b> نحتاج الى "
+"اضافة مستودع عن بعد."
+
+#: ../../../docs/remoteRepositories.php:14
+msgid ""
+"This command takes a remote name and a repository \n"
+"            URL, which in your case is https://github.com/try-git/try_git."
+"git.\n"
+"           <br /> Go ahead and run git remote add with the options below:"
+msgstr ""
+"هذا الامر ياخد اسم لـ <b> remote </b> و رابط المستودع, في هده الحالة هو : "
+"<b>  https://github.com/try-git/try_git.git. </b>  <br />تابع الان ونفد "
+"الامر <b> git remote add </b> مع الخيارات كما في الاسفل :"
 
 #: ../../../docs/addingAndCommitting.php:4
 msgid "Adding & Committing"
