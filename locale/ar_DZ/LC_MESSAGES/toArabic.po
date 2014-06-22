@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: try-git-ar\n"
-"POT-Creation-Date: 2014-06-18 19:37-0000\n"
-"PO-Revision-Date: 2014-06-18 19:54-0000\n"
+"POT-Creation-Date: 2014-06-22 20:14-0000\n"
+"PO-Revision-Date: 2014-06-22 20:32-0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabicgit-team <arabicgit@gmail.com>\n"
 "Language: ar_DZ\n"
@@ -14,6 +14,32 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../docs/pushingRemotely.php:4
+msgid "Pushing Remotely"
+msgstr "الدفع عن بعد"
+
+#: ../../../docs/pushingRemotely.php:8
+msgid ""
+"The push command tells Git where to put our commits \n"
+"            when we're ready, and boy we're ready. So let's push our local \n"
+"            changes to our origin repo (on GitHub)."
+msgstr ""
+"أمر الدفع أو <b> push </b> يخبر Git بوضع الإيداعات الخاصة بنا عندما نكون "
+"مستعدين, لكن نحن مستعدين الآن لنقم بدفع تغييراتنا المحلية إلى مستودعنا <b> "
+"origin </b> في <b> (GitHub) </b>"
+
+#: ../../../docs/pushingRemotely.php:13
+msgid ""
+"The name of our remote is origin and the default \n"
+"            local branch name is master. The -u tells Git to remember the \n"
+"            parameters, so that next time we can simply run git push and "
+"Git \n"
+"            will know what to do. Go ahead and push it!"
+msgstr ""
+"اسم الـ <b> remote </b> الخاص بنا هو origin و الاسم الافتراضي للفرع المحلي "
+"الخاص بنا هو master و <b> -u </b> يخبر Git بحفظ البارامترات, لهدا في المرة "
+"القادم فقط ننفد الأمر <b> push </b> بدون البارامترات. فل نقم هدا الآن : "
 
 #: ../../../docs/addingChanges.php:4
 msgid "Adding Changes"
@@ -83,9 +109,9 @@ msgid ""
 "git.\n"
 "           <br /> Go ahead and run git remote add with the options below:"
 msgstr ""
-"هذا الامر ياخد اسم لـ <b> remote </b> و رابط المستودع, في هده الحالة هو : "
-"<b>  https://github.com/try-git/try_git.git. </b>  <br />تابع الان ونفد "
-"الامر <b> git remote add </b> مع الخيارات كما في الاسفل :"
+"هذا الأمر يأخذ اسم لـ <b> remote </b> و رابط المستودع, في هده الحالة هو : "
+"<b>  https://github.com/try-git/try_git.git. </b>  <br />تابع الآن ونفد "
+"الأمر <b> git remote add </b> مع الخيارات كما في الأسفل :"
 
 #: ../../../docs/addingAndCommitting.php:4
 msgid "Adding & Committing"

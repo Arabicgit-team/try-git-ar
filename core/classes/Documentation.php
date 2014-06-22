@@ -27,6 +27,7 @@ class Documentation {
             '8'  => BASE_PATH . '/docs/committingAllChanges.php',
             '9'  => BASE_PATH . '/docs/history.php',
             '10' => BASE_PATH . '/docs/remoteRepositories.php',
+            '11' => BASE_PATH . '/docs/pushingRemotely.php',
         );
     }
 
