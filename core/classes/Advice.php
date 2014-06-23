@@ -32,12 +32,11 @@ class Advice {
         // for now, we change it in the futur.
         $numOfChallenge = 1;
 
-
-        if($numOfChallenge > 25 || $numOfChallenge < 1)
-            return false;
-
         if($numOfChallenge == 0)
             return $this->urlAdvices;
+            
+        if($numOfChallenge > 25 || $numOfChallenge < 1)
+            return false;
 
         return $this->urlAdvices[$numOfChallenge];
     }
