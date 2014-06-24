@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: try-git-ar\n"
-"POT-Creation-Date: 2014-06-23 13:45-0000\n"
-"PO-Revision-Date: 2014-06-23 13:57-0000\n"
+"POT-Creation-Date: 2014-06-24 02:17-0000\n"
+"PO-Revision-Date: 2014-06-24 02:26-0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabicgit-team <arabicgit@gmail.com>\n"
 "Language: ar_DZ\n"
@@ -210,6 +210,27 @@ msgstr ""
 "اسم الـ <b> remote </b> الخاص بنا هو origin و الاسم الافتراضي للفرع المحلي "
 "الخاص بنا هو master و <b> -u </b> يخبر Git بحفظ البارامترات, لهدا في المرة "
 "القادم فقط ننفد الأمر <b> push </b> بدون البارامترات. فل نقم هدا الآن : "
+
+#: ../../../docs/differences.php:4
+msgid "Differences"
+msgstr "الاختلافات"
+
+#: ../../../docs/differences.php:8
+msgid ""
+"Uh oh, looks like there has been some additions and \n"
+"            changes to the octocat family. Let's take a look at what is \n"
+"            different from our last commit by using the git diff command."
+msgstr ""
+"يبدو أن هناك بعض الإضافات و التغييرات على <b> octocat family </b>, لنقم "
+"بمشاهدة الاختلاف مند أخر إيداع و دلك بتنفيذ الأمر <b> git diff </b>"
+
+#: ../../../docs/differences.php:13
+msgid ""
+"In this case we want the diff of our most recent \n"
+"            commit, which we can refer to using the HEAD pointer."
+msgstr ""
+"في هده الحالة نريد عمل <b> diff </b> بنسية لآخر إيداع قمنا به و يمكننا أيضا "
+"الإشارة إليه بالمؤشر  HEAD"
 
 #: ../../../docs/addingAndCommitting.php:4
 msgid "Adding & Committing"

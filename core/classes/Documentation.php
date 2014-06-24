@@ -29,6 +29,7 @@ class Documentation {
             '10' => BASE_PATH . '/docs/remoteRepositories.php',
             '11' => BASE_PATH . '/docs/pushingRemotely.php',
             '12' => BASE_PATH . '/docs/pullingRemotely.php',
+            '13' => BASE_PATH . '/docs/differences.php',
         );
     }
 
