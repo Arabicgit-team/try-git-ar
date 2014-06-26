@@ -30,6 +30,9 @@ class Documentation {
             '11' => BASE_PATH . '/docs/pushingRemotely.php',
             '12' => BASE_PATH . '/docs/pullingRemotely.php',
             '13' => BASE_PATH . '/docs/differences.php',
+            '14' => BASE_PATH . '/docs/stagedDifferences.php',
+            '15' => BASE_PATH . '/docs/stagedDifferencesCont-d.php',
+            '16' => BASE_PATH . '/docs/resettingTheStage.php',
         );
     }
 
