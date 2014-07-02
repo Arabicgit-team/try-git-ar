@@ -33,6 +33,7 @@ class Documentation {
             '14' => BASE_PATH . '/docs/stagedDifferences.php',
             '15' => BASE_PATH . '/docs/stagedDifferencesCont-d.php',
             '16' => BASE_PATH . '/docs/resettingTheStage.php',
+            '17' => BASE_PATH . '/docs/undo.php',
         );
     }
 

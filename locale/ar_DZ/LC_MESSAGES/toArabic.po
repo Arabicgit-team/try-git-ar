@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: try-git-ar\n"
-"POT-Creation-Date: 2014-06-24 02:17-0000\n"
-"PO-Revision-Date: 2014-06-24 02:26-0000\n"
+"POT-Creation-Date: 2014-07-02 14:27-0000\n"
+"PO-Revision-Date: 2014-07-02 15:01-0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabicgit-team <arabicgit@gmail.com>\n"
 "Language: ar_DZ\n"
@@ -14,6 +14,161 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../docs/stagedDifferencesCont-d.php:4
+msgid "Staged Differences (cont'd)"
+msgstr "الاختلافات في منطقة الإيداع (تابع)"
+
+#: ../../../docs/stagedDifferencesCont-d.php:8
+msgid ""
+"Good, now go ahead and run git diff with the \n"
+"            --staged option to see the changes you just staged. You should \n"
+"            see that octodog.txt was created."
+msgstr ""
+"جيد جدا الآن قم بتنفيذ الأمر <b> git diff </b> مع الخيار <b> --staged </b> "
+"لراية التغييرات التي تم إيداعها الآن و سترى بان <b> octodog.txt </b> تم "
+"انشاءه"
+
+#: ../../../docs/undo.php:4
+msgid "Undo"
+msgstr "التراجع"
+
+#: ../../../docs/undo.php:8
+msgid ""
+"git reset did a great job of unstaging octodog.txt, \n"
+"            but you'll notice that he's still there. He's just not staged \n"
+"            anymore. It would be great if we could go back to how things "
+"were \n"
+"            before octodog came around and ruined the party."
+msgstr ""
+"عما جيد لـ <b> git reset </b> في ارجاع <b> octogod.txt </b> من منطقة "
+"الإيداع. ولكن سوف تلاحظ بانه مازال هنا هو فقط ليس في منطقة الأبدع. تعرف من "
+"الجميل الرجوع إلى الخلف قبل أن يأتي <b> octodof </b> و يقوم بتخريب الأمور."
+
+#: ../../../docs/undo.php:14
+msgid ""
+"Files can be changed back to how they were at the \n"
+"            last commit by using the command: git checkout -- <target>. Go \n"
+"            ahead and get rid of all the changes since the last commit for \n"
+"            octocat.txt"
+msgstr ""
+"يمكن التراجع عن التغييرات في الملفات لأخر إيداع بالأمر التالي : <b dir=\"ltr"
+"\"> git chechout --  &lt;target&gt;  </b>. الآن قم بالتخلص من التغييرات أخر "
+"إيداع للملف <b> octocat.txt </b>"
+
+#: ../../../docs/pushingRemotely.php:4
+msgid "Pushing Remotely"
+msgstr "الدفع عن بعد"
+
+#: ../../../docs/pushingRemotely.php:8
+msgid ""
+"The push command tells Git where to put our commits \n"
+"            when we're ready, and boy we're ready. So let's push our local \n"
+"            changes to our origin repo (on GitHub)."
+msgstr ""
+"أمر الدفع أو <b> push </b> يخبر Git بوضع الإيداعات الخاصة بنا عندما نكون "
+"مستعدين, لكن نحن مستعدين الآن لنقم بدفع تغييراتنا المحلية إلى مستودعنا <b> "
+"origin </b> في <b> (GitHub) </b>"
+
+#: ../../../docs/pushingRemotely.php:13
+msgid ""
+"The name of our remote is origin and the default \n"
+"            local branch name is master. The -u tells Git to remember the \n"
+"            parameters, so that next time we can simply run git push and "
+"Git \n"
+"            will know what to do. Go ahead and push it!"
+msgstr ""
+"اسم الـ <b> remote </b> الخاص بنا هو origin و الاسم الافتراضي للفرع المحلي "
+"الخاص بنا هو master و <b> -u </b> يخبر Git بحفظ البارامترات, لهدا في المرة "
+"القادم فقط ننفد الأمر <b> push </b> بدون البارامترات. فل نقم هدا الآن : "
+
+#: ../../../docs/addingChanges.php:4
+msgid "Adding Changes"
+msgstr "إضافة التغييرات"
+
+#: ../../../docs/addingChanges.php:8
+msgid ""
+"Good, it looks like our Git repository is working \n"
+"            properly. Notice how Git says octocat.txt is \"untracked\"? "
+"That \n"
+"            means Git sees that octocat.txt is a new file."
+msgstr ""
+"جيد, يبدو ان مستودع Git الخاص بنا يعمل يصورة جيدة. لاحظ ان Git يقول بان <b> "
+"octocat.txt </b> غير متعقب و هدا يعني ان <b> octocat.txt </b> هو ملف جديد."
+
+#: ../../../docs/addingChanges.php:13
+msgid ""
+"To tell Git to start tracking changes made to \n"
+"            octocat.txt, we first need to add it to the staging area by "
+"using \n"
+"            git add."
+msgstr ""
+"لاخبار Git بتتبع التغيرات في <b> octocat.txt </b>, اولا يجب علينا اضافة "
+"الملف الى منطقة التحضير باستعمال الامر <b> git add </b>"
+
+#: ../../../docs/differences.php:4
+msgid "Differences"
+msgstr "الاختلافات"
+
+#: ../../../docs/differences.php:8
+msgid ""
+"Uh oh, looks like there has been some additions and \n"
+"            changes to the octocat family. Let's take a look at what is \n"
+"            different from our last commit by using the git diff command."
+msgstr ""
+"يبدو أن هناك بعض الإضافات و التغييرات على <b> octocat family </b>, لنقم "
+"بمشاهدة الاختلاف مند أخر إيداع و دلك بتنفيذ الأمر <b> git diff </b>"
+
+#: ../../../docs/differences.php:13
+msgid ""
+"In this case we want the diff of our most recent \n"
+"            commit, which we can refer to using the HEAD pointer."
+msgstr ""
+"في هده الحالة نريد عمل <b> diff </b> بنسية لآخر إيداع قمنا به و يمكننا أيضا "
+"الإشارة إليه بالمؤشر  HEAD"
+
+#: ../../../docs/history.php:4
+msgid "History"
+msgstr "التاريخ"
+
+#: ../../../docs/history.php:8
+msgid ""
+"So we've made a few commits. Now let's browse them \n"
+"            to see what we changed."
+msgstr "إذا لقد قمنا بالقليل من الايداعات. لنرى مادا غيرنا."
+
+#: ../../../docs/history.php:12
+msgid ""
+"Fortunately for us, there's git log. Think of Git's \n"
+"            log as a journal that remembers all the changes we've committed "
+"so \n"
+"            far, in the order we committed them. Try running it now:"
+msgstr ""
+"لحسن الحظ لدبنا <b> git log </b>. فكر فيه كانه صحيفة يتدكر جميع التغييرات "
+"التي نقوم بها و قمنا بايداعها من قبل. لنقم بتنفيد الامر الان و نرى :"
+
+#: ../../../docs/stagedDifferences.php:4
+msgid "Staged Differences"
+msgstr "الاختلافات في منطقة الإيداع "
+
+#: ../../../docs/stagedDifferences.php:8
+msgid ""
+"Another great use for diff is looking at changes \n"
+"            within files that have already been staged. Remember, staged "
+"files \n"
+"            are files we have told git that are ready to be committed."
+msgstr ""
+"استعمال جيد أخر لـ <b> diff </b> هو مشاهدة التغييرات في الملفات التي في "
+"منطقة الإيداع أيضا. تذكر الملفات المودعة هي ملفات اخبرنا Git بانها جاهزة "
+"للإيداع. "
+
+#: ../../../docs/stagedDifferences.php:13
+msgid ""
+"Let's use git add to stage octofamily/octodog.txt, \n"
+"            which I just added to the family for you."
+msgstr ""
+"لنستعمل <b> git add </b> لاضافة <b> octofamily/octodog.txt </b> الذي أضفته "
+"الآن فقط إلى العائلة من أجلك. "
 
 #: ../../../docs/remoteRepositories.php:4
 msgid "Remote Repositories"
@@ -43,41 +198,36 @@ msgstr ""
 "<b>  https://github.com/try-git/try_git.git. </b>  <br />تابع الآن ونفد "
 "الأمر <b> git remote add </b> مع الخيارات كما في الأسفل :"
 
-#: ../../../docs/checkingForChanges.php:4
-msgid "Checking for Changes"
-msgstr "التحقق من التغييرات"
+#: ../../../docs/addingAndCommitting.php:4
+msgid "Adding & Committing"
+msgstr "الاضافة & الايداع"
 
-#: ../../../docs/checkingForChanges.php:8
+#: ../../../docs/addingAndCommitting.php:8
 msgid ""
-"Good job! Git is now tracking our octocat.txt file. \n"
-"            Let's run git status again to see where we stand:"
-msgstr ""
-"عما جيد, الان Git يقوم بتتبع ملفنا <b> octocat.txt  </b>. لننفد الامر <b> "
-"git status </b> مرة اخرى لنرى اين وصلنا."
+"I created a file called octocat.txt in the octobox \n"
+"            repository for you (as you can see in the browser below)."
+msgstr "انشأت ملف اسمه <b>octocat.txt </b> في المستودع octobox من اجلك. "
 
-#: ../../../docs/addingChanges.php:4
-msgid "Adding Changes"
-msgstr "إضافة التغييرات"
-
-#: ../../../docs/addingChanges.php:8
+#: ../../../docs/addingAndCommitting.php:12
 msgid ""
-"Good, it looks like our Git repository is working \n"
-"            properly. Notice how Git says octocat.txt is \"untracked\"? "
-"That \n"
-"            means Git sees that octocat.txt is a new file."
+"You should run the git status command again to see \n"
+"            how the repository status has changed:"
 msgstr ""
-"جيد, يبدو ان مستودع Git الخاص بنا يعمل يصورة جيدة. لاحظ ان Git يقول بان <b> "
-"octocat.txt </b> غير متعقب و هدا يعني ان <b> octocat.txt </b> هو ملف جديد."
+"و الان يجب عليك تنفيد الامر <b> git status </b> مرة اخرى لترى بان حالة "
+"المستودع تغيرت."
 
-#: ../../../docs/addingChanges.php:13
+#: ../../../docs/committingAllChanges.php:4
+msgid "Committing All Changes"
+msgstr "ايداع جميع التغييرات"
+
+#: ../../../docs/committingAllChanges.php:8
 msgid ""
-"To tell Git to start tracking changes made to \n"
-"            octocat.txt, we first need to add it to the staging area by "
-"using \n"
-"            git add."
+"Okay, you've added all the text files to the staging \n"
+"            area. Feel free to run git status to see what you're about to \n"
+"            commit."
 msgstr ""
-"لاخبار Git بتتبع التغيرات في <b> octocat.txt </b>, اولا يجب علينا اضافة "
-"الملف الى منطقة التحضير باستعمال الامر <b> git add </b>"
+"حسنا, لقد قمة بإضافة جميع الملفات النصية إلى منطقة التحضير. الآن يمكنك "
+"تنفيذ  الأمر <b> commit </b> التالي :"
 
 #: ../../../docs/addingAllChanges.php:4
 msgid "Adding All Changes"
@@ -105,25 +255,37 @@ msgstr ""
 "\". نستطيع اضافة جميع الملفات باستخدام wildcard بالامر <b> git add </b>. ولا "
 "تنسى علامات الاقتباس ' '"
 
-#: ../../../docs/history.php:4
-msgid "History"
-msgstr "التاريخ"
+#: ../../../docs/checkingStatus.php:4
+msgid "Checking the Status"
+msgstr "التحقق من الحالة"
 
-#: ../../../docs/history.php:8
+#: ../../../docs/checkingStatus.php:8
 msgid ""
-"So we've made a few commits. Now let's browse them \n"
-"            to see what we changed."
-msgstr "إذا لقد قمنا بالقليل من الايداعات. لنرى مادا غيرنا."
-
-#: ../../../docs/history.php:12
-msgid ""
-"Fortunately for us, there's git log. Think of Git's \n"
-"            log as a journal that remembers all the changes we've committed "
-"so \n"
-"            far, in the order we committed them. Try running it now:"
+"Good job! As Git just told us, our \"octobox\" \n"
+"            directory now has an empty repository in /.git/. The "
+"repository \n"
+"            is a hidden directory where Git operates."
 msgstr ""
-"لحسن الحظ لدبنا <b> git log </b>. فكر فيه كانه صحيفة يتدكر جميع التغييرات "
-"التي نقوم بها و قمنا بايداعها من قبل. لنقم بتنفيد الامر الان و نرى :"
+"عمل جيد, لقد اخبرنا Git بان مجلدنا \"octobox\" لديه مستودع فارغ في /git./ و "
+"محجوب حيث تسجل عمليات Git."
+
+#: ../../../docs/checkingStatus.php:13
+msgid ""
+"Next up, let's type the git status command to see \n"
+"            what the current state of our project is:"
+msgstr "وبعد, لنكتب الامر git status لمعرفة حالة المشروع."
+
+#: ../../../docs/checkingForChanges.php:4
+msgid "Checking for Changes"
+msgstr "التحقق من التغييرات"
+
+#: ../../../docs/checkingForChanges.php:8
+msgid ""
+"Good job! Git is now tracking our octocat.txt file. \n"
+"            Let's run git status again to see where we stand:"
+msgstr ""
+"عما جيد, الان Git يقوم بتتبع ملفنا <b> octocat.txt  </b>. لننفد الامر <b> "
+"git status </b> مرة اخرى لنرى اين وصلنا."
 
 #: ../../../docs/committing.php:4
 msgid "Committing"
@@ -152,126 +314,6 @@ msgstr ""
 "لتخزين التغييرات بجب تنفيد الامر <b> commit </b> مع رسالة تصف التغييرات. "
 "لنقم بدلك الان بكتابة الامر التالي :"
 
-#: ../../../docs/checkingStatus.php:4
-msgid "Checking the Status"
-msgstr "التحقق من الحالة"
-
-#: ../../../docs/checkingStatus.php:8
-msgid ""
-"Good job! As Git just told us, our \"octobox\" \n"
-"            directory now has an empty repository in /.git/. The "
-"repository \n"
-"            is a hidden directory where Git operates."
-msgstr ""
-"عمل جيد, لقد اخبرنا Git بان مجلدنا \"octobox\" لديه مستودع فارغ في /git./ و "
-"محجوب حيث تسجل عمليات Git."
-
-#: ../../../docs/checkingStatus.php:13
-msgid ""
-"Next up, let's type the git status command to see \n"
-"            what the current state of our project is:"
-msgstr "وبعد, لنكتب الامر git status لمعرفة حالة المشروع."
-
-#: ../../../docs/committingAllChanges.php:4
-msgid "Committing All Changes"
-msgstr "ايداع جميع التغييرات"
-
-#: ../../../docs/committingAllChanges.php:8
-msgid ""
-"Okay, you've added all the text files to the staging \n"
-"            area. Feel free to run git status to see what you're about to \n"
-"            commit."
-msgstr ""
-"حسنا, لقد قمة بإضافة جميع الملفات النصية إلى منطقة التحضير. الآن يمكنك "
-"تنفيذ  الأمر <b> commit </b> التالي :"
-
-#: ../../../docs/pushingRemotely.php:4
-msgid "Pushing Remotely"
-msgstr "الدفع عن بعد"
-
-#: ../../../docs/pushingRemotely.php:8
-msgid ""
-"The push command tells Git where to put our commits \n"
-"            when we're ready, and boy we're ready. So let's push our local \n"
-"            changes to our origin repo (on GitHub)."
-msgstr ""
-"أمر الدفع أو <b> push </b> يخبر Git بوضع الإيداعات الخاصة بنا عندما نكون "
-"مستعدين, لكن نحن مستعدين الآن لنقم بدفع تغييراتنا المحلية إلى مستودعنا <b> "
-"origin </b> في <b> (GitHub) </b>"
-
-#: ../../../docs/pushingRemotely.php:13
-msgid ""
-"The name of our remote is origin and the default \n"
-"            local branch name is master. The -u tells Git to remember the \n"
-"            parameters, so that next time we can simply run git push and "
-"Git \n"
-"            will know what to do. Go ahead and push it!"
-msgstr ""
-"اسم الـ <b> remote </b> الخاص بنا هو origin و الاسم الافتراضي للفرع المحلي "
-"الخاص بنا هو master و <b> -u </b> يخبر Git بحفظ البارامترات, لهدا في المرة "
-"القادم فقط ننفد الأمر <b> push </b> بدون البارامترات. فل نقم هدا الآن : "
-
-#: ../../../docs/differences.php:4
-msgid "Differences"
-msgstr "الاختلافات"
-
-#: ../../../docs/differences.php:8
-msgid ""
-"Uh oh, looks like there has been some additions and \n"
-"            changes to the octocat family. Let's take a look at what is \n"
-"            different from our last commit by using the git diff command."
-msgstr ""
-"يبدو أن هناك بعض الإضافات و التغييرات على <b> octocat family </b>, لنقم "
-"بمشاهدة الاختلاف مند أخر إيداع و دلك بتنفيذ الأمر <b> git diff </b>"
-
-#: ../../../docs/differences.php:13
-msgid ""
-"In this case we want the diff of our most recent \n"
-"            commit, which we can refer to using the HEAD pointer."
-msgstr ""
-"في هده الحالة نريد عمل <b> diff </b> بنسية لآخر إيداع قمنا به و يمكننا أيضا "
-"الإشارة إليه بالمؤشر  HEAD"
-
-#: ../../../docs/addingAndCommitting.php:4
-msgid "Adding & Committing"
-msgstr "الاضافة & الايداع"
-
-#: ../../../docs/addingAndCommitting.php:8
-msgid ""
-"I created a file called octocat.txt in the octobox \n"
-"            repository for you (as you can see in the browser below)."
-msgstr "انشأت ملف اسمه <b>octocat.txt </b> في المستودع octobox من اجلك. "
-
-#: ../../../docs/addingAndCommitting.php:12
-msgid ""
-"You should run the git status command again to see \n"
-"            how the repository status has changed:"
-msgstr ""
-"و الان يجب عليك تنفيد الامر <b> git status </b> مرة اخرى لترى بان حالة "
-"المستودع تغيرت."
-
-#: ../../../docs/pullingRemotely.php:4
-msgid "Pulling Remotely"
-msgstr "السحب عن بعد"
-
-#: ../../../docs/pullingRemotely.php:8
-msgid ""
-"Let's pretend some time has passed. We've invited \n"
-"            other people to our github project who have pulled your "
-"changes, \n"
-"            made their own commits, and pushed them."
-msgstr ""
-"لننتظر بعض الوقت. لقد دعونا بعض الأشخاص إلى مشروعنا في <b> GitHub </b> الدين "
-"بدورهم قام بسحب تغييراتك و قام بادع و دفع تغييراتهم."
-
-#: ../../../docs/pullingRemotely.php:13
-msgid ""
-"We can check for changes on our GitHub repository \n"
-"            and pull down any new changes by running:"
-msgstr ""
-"يمكننا التحقق من وجود تغييرات في مستودعنا على <b> GitHub </b> و سحبها بتنفيذ "
-"الأمر التالي :"
-
 #: ../../../docs/initializing.php:4
 msgid "Got 15 minutes and want to learn Git?"
 msgstr "لديك 15 دقيقة و تريد تعلم Git ؟"
@@ -294,6 +336,51 @@ msgid ""
 msgstr ""
 "لدينا طرفية في الاسفل في المجلد<code> octobox </code>. لتهيئة مستودع لـ Git "
 "هنا. اكتب الامر التالي :"
+
+#: ../../../docs/resettingTheStage.php:4
+msgid "Resetting the Stage"
+msgstr "الاسترجاع من منطقة الإيداع"
+
+#: ../../../docs/resettingTheStage.php:8
+msgid ""
+"So now that octodog is part of the family, octocat \n"
+"            is all depressed. Since we love octocat more than octodog, "
+"we'll \n"
+"            turn his frown around by removing octodog.txt."
+msgstr ""
+"إذا الآن <b> octodog </b> هو جزء من العائلة, <b> octocat </b> كلهم قلقين "
+"ولأننا نحب <b> octocat </b> اكثر من <b> octodog </b> أزلنا عبوسهم بإزالة <b> "
+"octodog.txt </b>."
+
+#: ../../../docs/resettingTheStage.php:13
+msgid ""
+"You can unstage files by using the git reset \n"
+"            command. Go ahead and remove octofamily/octodog.txt."
+msgstr ""
+"يمكنك إرجاع الملفات من منطقة الإيداع بالأمر <b> git reset </b>. اذهب الآن و "
+"أزل <b> octofamily/octodog.txt </b>."
+
+#: ../../../docs/pullingRemotely.php:4
+msgid "Pulling Remotely"
+msgstr "السحب عن بعد"
+
+#: ../../../docs/pullingRemotely.php:8
+msgid ""
+"Let's pretend some time has passed. We've invited \n"
+"            other people to our github project who have pulled your "
+"changes, \n"
+"            made their own commits, and pushed them."
+msgstr ""
+"لننتظر بعض الوقت. لقد دعونا بعض الأشخاص إلى مشروعنا في <b> GitHub </b> الدين "
+"بدورهم قام بسحب تغييراتك و قام بادع و دفع تغييراتهم."
+
+#: ../../../docs/pullingRemotely.php:13
+msgid ""
+"We can check for changes on our GitHub repository \n"
+"            and pull down any new changes by running:"
+msgstr ""
+"يمكننا التحقق من وجود تغييرات في مستودعنا على <b> GitHub </b> و سحبها بتنفيذ "
+"الأمر التالي :"
 
 #~ msgid "Hello"
 #~ msgstr "مرحبا"
