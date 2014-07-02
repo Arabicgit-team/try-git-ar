@@ -174,11 +174,13 @@ class CommandLine {
         $isGitCommand = ($command[1] === $this->gitCommands[$numOfChallenge])
             ? true : false;
 
-        if(isset($command[2]))
+        if(isset($command[2])) {
+            $command[2] = strtolower(preg_replace("/\"/","'",$command[2]));
             $isGitFlag = ($command[2] === $this->gitFlags[$numOfChallenge])
                 ? true : false;
-        else 
+        } else { 
             $isGitFlag = true;
+        }
 
 
         if ($isGit && $isGitCommand && $isGitFlag)
