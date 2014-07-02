@@ -28,6 +28,12 @@ class Documentation {
             '9'  => BASE_PATH . '/docs/history.php',
             '10' => BASE_PATH . '/docs/remoteRepositories.php',
             '11' => BASE_PATH . '/docs/pushingRemotely.php',
+            '12' => BASE_PATH . '/docs/pullingRemotely.php',
+            '13' => BASE_PATH . '/docs/differences.php',
+            '14' => BASE_PATH . '/docs/stagedDifferences.php',
+            '15' => BASE_PATH . '/docs/stagedDifferencesCont-d.php',
+            '16' => BASE_PATH . '/docs/resettingTheStage.php',
+            '17' => BASE_PATH . '/docs/undo.php',
         );
     }
 
