@@ -58,7 +58,7 @@ class Git {
             '10' => 'add origin https://github.com/try-git/try_git.git',
             '11' => '-u origin master',
             '12' => 'origin master',
-            '13' => 'HEAD',
+            '13' => 'head',
             '14' => 'octofamily/octodog.txt',
             '15' => '--staged',
             '16' => 'octofamily/octodog.txt',
