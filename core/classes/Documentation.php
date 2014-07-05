@@ -34,6 +34,14 @@ class Documentation {
             '15' => BASE_PATH . '/docs/stagedDifferencesCont-d.php',
             '16' => BASE_PATH . '/docs/resettingTheStage.php',
             '17' => BASE_PATH . '/docs/undo.php',
+            '18' => BASE_PATH . '/docs/branchingOut.php',
+            '19' => BASE_PATH . '/docs/switchingBranches.php',
+            '20' => BASE_PATH . '/docs/removingAllTheThings.php',
+            '21' => BASE_PATH . '/docs/committingBranchChanges.php',
+            '22' => BASE_PATH . '/docs/switchingBacktomaster.php',
+            '23' => BASE_PATH . '/docs/preparingtoMerge.php',
+            '24' => BASE_PATH . '/docs/keepingThingsClean.php',
+            '25' => BASE_PATH . '/docs/theFinalPush.php'
         );
     }
 
